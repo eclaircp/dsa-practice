@@ -1,12 +1,12 @@
 # Binary Search on Answer
 
 ## When is it used?
-Used when we have to find the minimum or maximum value some some parameter for which a given condition is satisfied. <br>
+Used when we have to find the minimum or maximum value of some parameter for which a given condition is satisfied. <br>
 In mathematical terms, it's used in cases when we need to find the minimum or maximum value of variable _x_ for which the function _f(x)_ is satisfied. <br>
 But, there is a condition, the _f(x)_ should be monotonic.
 
 ## What do you mean by the term monotonic?
-It means a function is either increasing or decreasing. For performing binary search on answer, we can always convert _f(x)_ to a form where it only returns _true_ or _false_. And snce this function is monotonic, the range of the function will be either of the following {..., false, false, true, true, ...} or {..., true, true, false, false, ...}.
+It means a function is either increasing or decreasing. For performing binary search on answer, we can always convert _f(x)_ to a form where it only returns _true_ or _false_. And since this function is monotonic, the range of the function will be either of the following {..., false, false, true, true, ...} or {..., true, true, false, false, ...}.
 
 ## Code Structure
 ```cpp
